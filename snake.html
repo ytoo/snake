@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Game.js"></script>
+    <script src="Map.js"></script>
+    <script src="Food.js"></script>
+    <script src="Snake.js"></script>
+ 
+
+</head>
+<body>
+    <script>
+
+        var game=new Game();
+
+        game.gameStart();
+
+//         var map=new Map({
+//             map:m,
+//             color:'pink'
+//         })
+//         map.render();
+       
+//         var m=document.querySelector('.map');
+
+//         var food=new Food({
+//             map:m
+//         });
+
+//         // food.render();
+
+//         var snake=new Snake({
+//            map:m,
+//         });
+
+// //        snake.render();
+
+// //        var child=map.childNodes;
+//         var tt=setInterval(function(){
+// //            for(var i=0;i<child.length;i++){
+// //                var ch=child[i];
+// //                map.removeChild(ch);
+// //            }
+// //            console.log(map.childNodes());
+//             m.innerHTML='';
+
+//             food.render();
+//             snake.move();
+//             snake.render();
+
+//             //碰撞检测
+//             if(snake.body[0].x==food.x&&snake.body[0].y==food.y){
+//                 snake.eat();
+//                 food.setPos();
+//                 food.render();
+//             }
+
+//             //判断游戏结束
+//             gameover(snake,map);
+//         },200);
+
+// //用户操作
+//         window.onkeydown=function(e){
+//             //左 37 上 38   右 39  下 40
+// //            alert(e.keyCode);
+
+//             switch (e.keyCode){
+//                 case 37:
+//                     snake.direction='left';
+//                     break;
+//                 case 38:
+//                     snake.direction='up';
+//                     break;
+//                 case 39:
+//                     snake.direction='right';
+//                     break;
+//                 case 40:
+//                     snake.direction='down';
+//                     break;
+//             }
+//         }
+
+
+//         var gameover=function(snake,map){
+//             if(snake.body[0].x<0
+//             ||snake.body[0].y<0
+//             ||snake.body[0].x>map.xGrid
+//             ||snake.body[0].y>map.yGrid){
+//                 alert('gameover !');
+//                 clearInterval(tt);
+//             }
+//             console.log(snake.body[0].x);
+//             console.log(map.xGrid);
+//         }
+
+    </script>
+</body>
+</html>
